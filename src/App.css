@@ -26,8 +26,14 @@ body {
   justify-content: space-between;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: rgb(191, 183, 183);
+  margin-left: 55px;
+  font-size: 20px;
+}
 
-.link-container a {
+/*.link-container a {
   text-decoration: none;
   color: rgb(191, 183, 183);
   margin-right: 35px;
@@ -35,9 +41,11 @@ body {
   
 }
 
+
+
 .link-container li {
   list-style: none;
-}
+}*/
 
 .log-in {
   background-color: transparent;
@@ -57,6 +65,7 @@ body {
   border: 1px solid transparent;
   padding: auto;
 }
+
 
 .main {
  display: flex;
@@ -81,6 +90,18 @@ body {
 }
 
 .main-text button {
+  background-color: rgb(228, 228, 228);
+  margin: 0 100px;
+  height: 30px;
+  width: 200px;
+  border: 1px solid transparent;
+  padding: auto;
+  font-weight: bold;
+}
+
+.learn-btn {
+  text-decoration: none;
+  color: black ;
   background-color: rgb(228, 228, 228);
   margin: 0 100px;
   height: 30px;
